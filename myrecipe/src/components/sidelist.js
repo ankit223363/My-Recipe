@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink  } from 'react-router-dom'
 function Sidelist() {
-    const listitems=['Home','Recipes','Trending']
+    const listitems=['Home','Popular','Trending']
   return (
     <div className='sidelist'>
         {listitems.map((item)=>

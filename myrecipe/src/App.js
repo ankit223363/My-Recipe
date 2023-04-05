@@ -5,7 +5,7 @@ import Footer from './components/footer';
 import { Route,Routes } from 'react-router-dom';
 import Sidelist from './components/sidelist';
 import Recipes from './components/recipes';
-import Trending from './components/trending';
+import Popular from './components/popular';
 function App() {
   return (
     <div className='appclass'>
@@ -15,8 +15,8 @@ function App() {
     <Routes >
         <Route path='/' element={<Body />} />
         <Route path='/Home' element={<Body />} />
-        <Route path='/Recipes' element={<Recipes/>} />
-        <Route path='/Trending' element={<Trending/>} />
+        <Route path='/Popular' element={<Popular />} />
+        <Route path='/Trending' element={<Recipes/>} />
       </Routes>
     
     <Footer />
