@@ -5,8 +5,8 @@ function Sidelist() {
   return (
     <div className='sidelist'>
         {listitems.map((item)=>
-        <NavLink to={item} style={{ textDecoration: 'none' }}>
-        <li key={item}>{item}</li>
+        <NavLink to={item} style={{ textDecoration: 'none'}}>
+        <li style={{color: 'white'}} key={item}>{item}</li>
         </NavLink>)}
     </div>
   )

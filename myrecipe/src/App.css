@@ -4,6 +4,7 @@
     color: white;
     list-style: none outside none;
     position: relative;
+    
 }
 .appclass{
     height: 100vh;
@@ -27,6 +28,8 @@
     text-align: center;
 }
 #mainbody{
+    display: flex;
+    flex-direction: column;
     overflow: auto;
  background-image: url('./static/img/bg.jpg');
  background-size: cover;
@@ -65,8 +68,10 @@
 }
 li{
     margin: 10px;
+    color: #000;
 }
 .headinglabel{
+    color: black;
     text-align: center;
     font-size: xx-large;
     margin: 20px;
@@ -80,4 +85,26 @@ li{
     margin-left: 5%;
     width:90%;
     
+}
+.imgclass{
+    float: left;
+    width: 400px;
+}
+.instruct{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+p {
+    color: #000;
+}
+.imgbox{
+    display: flex;
+}
+.search{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 13px;
+    font-size: xx-large;
 }
